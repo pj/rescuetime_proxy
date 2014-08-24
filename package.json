@@ -1,0 +1,13 @@
+{ 
+  "name" : "rescuetime_proxy"
+  , "version" : "0.0.1"
+  , "email" : "paul@johnson.kiwi.nz"
+  , "description" : "Proxies requests and filters based on data from RescueTime.  For devices that don't support rescue time directly."
+  , "main" : "rescuetime_proxy"
+  , "dependencies" : {
+        "http-proxy" : "latest"
+      , "request-json" : "latest"
+      , "winston" : "latest"
+      , "moment"  : "latest"
+  }
+}
